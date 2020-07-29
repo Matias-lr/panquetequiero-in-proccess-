@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './cantidades.css'
 
-const Cantidades = () => {
+export default () => {
     const [useScroll,setScroll] = useState(true)
     useEffect(()=>{
         var element:any = !! document.getElementById('items')?.scrollTop
@@ -40,5 +40,3 @@ const Cantidades = () => {
         </div>
     )
 }
-
-export default Cantidades

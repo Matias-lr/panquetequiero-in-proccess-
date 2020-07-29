@@ -2,7 +2,7 @@ import React,{ useState } from 'react'
 import {Props} from './types'
 import './input.css'
 
-const InputSelect = (props:Props) => {
+export default (props:Props) => {
     const data = props.data;
     const name = props.name;
     const ph = props.placeholder;
@@ -32,5 +32,3 @@ const InputSelect = (props:Props) => {
         </div>
     )
 }
-
-export default InputSelect

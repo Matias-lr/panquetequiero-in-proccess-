@@ -4,7 +4,7 @@ import Moment from 'react-moment';
 import 'moment-timezone';
 import 'moment/locale/es';
 
-const Fecha = () =>{
+export default () =>{
     return(
         <div className="fecha col-xl-8 col-lg-7 col-md-12">
             <div className="header-card">
@@ -24,5 +24,3 @@ const Fecha = () =>{
         </div>
     )
 }
-
-export default Fecha

@@ -4,7 +4,7 @@ import Cantidades from '../../components/panels/cantidades'
 import Fecha from '../../components/panels/fecha'
 import Pedidos from '../../components/panels/pediddos'
 
-const Home =() =>{
+export default () =>{
     return(
         <div className="principal-content">
             <Cantidades/>
@@ -13,4 +13,3 @@ const Home =() =>{
         </div>
     )
 }
-export default Home;

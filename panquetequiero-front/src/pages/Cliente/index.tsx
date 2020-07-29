@@ -1,11 +1,9 @@
 import React from 'react'
 
-const Cliente = () =>{
+export default () =>{
     return (
         <>
         Cliente
         </>
     )
-} 
-
-export default Cliente
+}

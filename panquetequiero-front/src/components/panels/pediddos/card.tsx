@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import {Props} from './type'
 
-const Card = (props:Props) =>{
+export default (props:Props) =>{
     const nombre = props.name
     const direccion = props.direccion
     const data = props.data
@@ -40,5 +40,3 @@ const Card = (props:Props) =>{
     </div>
     )
 }
-
-export default Card

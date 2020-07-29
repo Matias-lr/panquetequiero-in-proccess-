@@ -1,11 +1,9 @@
 import React from 'react'
 
-const Inventario = () =>{
+export default () =>{
     return (
         <>
         Inventario
         </>
     )
 } 
-
-export default Inventario

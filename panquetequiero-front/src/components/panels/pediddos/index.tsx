@@ -2,7 +2,7 @@ import React,{ useState, useEffect } from 'react'
 import './pedidos.css'
 import Card from './card'
 
-const Pedidos = () =>{
+export default () =>{
     return(
         <div className='pedidos col-lg-12 col-md-12 col-sm-12'>
             <div className="header-card">
@@ -33,5 +33,3 @@ const Pedidos = () =>{
         </div>
     )
 }
-
-export default Pedidos
