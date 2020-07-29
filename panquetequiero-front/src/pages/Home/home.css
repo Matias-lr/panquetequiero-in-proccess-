@@ -1,0 +1,8 @@
+.principal-content {
+    padding : 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: auto;
+}

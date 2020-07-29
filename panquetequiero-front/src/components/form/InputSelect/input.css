@@ -1,0 +1,24 @@
+.input-container{
+	position:relative;
+	margin-bottom:25px;
+}
+.input-container select{
+    appearance:none;
+    font-family: Josefin Sans;
+    border:0;
+    border-bottom:1px solid #555;  
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right transparent;
+    width:100%;
+    padding:8px 0 5px 0;
+    font-size:16px;
+    color:#2c3e50;
+}
+option:hover{
+    background: var(--bg-secondary);
+    font-family: Josefin Sans;
+}
+.input-container select:focus{ 
+    border:none;	
+    outline:none;
+    border-bottom:1px solid #2980b9;	
+}
