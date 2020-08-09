@@ -1,10 +1,10 @@
 import React,{useState} from 'react'
 import './home.css'
-import Cantidades from '../../components/panels/cantidades'
-import Fecha from '../../components/panels/fecha'
-import Pedidos from '../../components/panels/pediddos'
+import Cantidades from '../../components/home-panels/cantidades'
+import Fecha from '../../components/home-panels/fecha'
+import Pedidos from '../../components/home-panels/pediddos'
 
-export default () =>{
+const Home =() =>{
     return(
         <div className="principal-content">
             <Cantidades/>
@@ -13,3 +13,4 @@ export default () =>{
         </div>
     )
 }
+export default Home;

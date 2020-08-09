@@ -1,9 +1,12 @@
 import React from 'react'
+import Inventario_panel from '../../components/inventario-panels'
 
-export default () =>{
+const Inventario = () =>{
     return (
         <>
-        Inventario
+        <Inventario_panel/>
         </>
     )
 } 
+
+export default Inventario

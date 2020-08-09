@@ -14,7 +14,7 @@ import Inventario from './pages/Inventario'
 import Pedidos from './pages/Pedidos'
 import Settings from './pages/Settings'
 
-export default () => {
+const App = () => {
   return (
     <>
       <Router>
@@ -33,3 +33,5 @@ export default () => {
     </>
   );
 }
+
+export default App;

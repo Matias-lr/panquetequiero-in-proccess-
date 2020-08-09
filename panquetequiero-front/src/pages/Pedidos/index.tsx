@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default () =>{
+const Pedidos = () =>{
     return (
         <>
         Pedidos
         </>
     )
 } 
+
+export default Pedidos

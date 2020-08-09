@@ -7,7 +7,7 @@ import {
   NavLink
 } from "react-router-dom"
 
-export default () =>{
+const Sidebar = () =>{
     return(
     <section className="Sidebar" id='sidebar'>
         <nav className="navbar" id='navbar'>
@@ -184,3 +184,5 @@ export default () =>{
     </section>
     )
 }
+
+export default Sidebar

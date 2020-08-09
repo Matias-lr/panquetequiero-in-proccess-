@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default () =>{
+const Settings = () =>{
     return (
         <>
         Settings
         </>
     )
 } 
+
+export default Settings

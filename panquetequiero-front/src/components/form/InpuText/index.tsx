@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import './input.css'
 import {Props} from './types'
 
-export default (props:Props) =>{
+const InpuText = (props:Props) =>{
     const inputType = props.type
     const inputId = props.id
     const inputName = props.name
@@ -41,3 +41,4 @@ export default (props:Props) =>{
         </div>
     )
 }
+export default InpuText;
